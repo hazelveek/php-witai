@@ -3,6 +3,7 @@
     "description": "PHP Package for Wit.ai API with support for Laravel and CakePHP",
     "type": "library",
     "license": "MIT",
+    "version": "dev-master-20230704",
     "autoload": {
         "psr-4": {
             "Hazelveek\\PhpWitAi\\": "src/"
