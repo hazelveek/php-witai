@@ -1,0 +1,25 @@
+{
+    "name": "hazelveek/php-wit-ai",
+    "description": "PHP Package for Wit.ai API with support for Laravel and CakePHP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hazelveek\\PhpWitAi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victoria Etim",
+            "email": "viktoriaetim@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "illuminate/support": "^7.30",
+        "illuminate/config": "^7.30",
+        "ext-json": "*",
+        "ext-fileinfo": "*"
+    }
+}
